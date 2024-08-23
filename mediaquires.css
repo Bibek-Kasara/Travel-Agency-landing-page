@@ -1,0 +1,103 @@
+@media screen and (max-width: 879px) {
+    nav{
+        height: auto;
+        justify-content: space-between;
+        padding: 10px 0px;
+    }
+    .logo{
+        font-size: 2em;
+        width: 25%;
+        margin: 0px 20px;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        position: absolute;
+        top:-50%;
+        right: 0%;
+        border-radius: 0px 0px 10px 10px;
+        background: rgba(255, 255, 255, 0.5);;
+        width: 25%;
+        transition: 0.5s ease-in-out;
+    }
+    .menu.active{
+        top: 5%;
+    }
+    .menu a{
+        font-size: 18px;
+    }
+    .register i{
+        font-size: 30px;
+        padding: 0px 20px;
+        display: initial;
+      }
+    .register a{
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+    .pad1{
+        width: 600px;
+    }
+    .pad1 span {
+        font-size: 28px;
+      }
+    .pad1 h1 {
+        font-size: 3.5em;
+        margin: 25px 0px 50px;
+      }
+}
+
+@media screen and (max-width: 600px) {
+    .logo{
+        font-size: 1.5em;
+    }
+    .menu{
+        width: 35%;
+    }
+    .menu a{
+        font-size: 16px;
+    }
+    .register i{
+        font-size: 25px;
+    }
+    .register a{
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+    .pad1{
+        width: 400px;
+    }
+    .pad1 span {
+        font-size: 25px;
+      }
+    .pad1 h1 {
+        font-size: 2em;
+        margin: 25px 0px 50px;
+      }
+}
+@media screen and (max-width: 450px) {
+    .logo{
+        font-size: 1em;
+    }
+    .menu{
+        width: 40%;
+    }
+    .menu a{
+        font-size: 14px;
+    }
+    .register i{
+        font-size: 20px;
+    }
+    .pad1{
+        width: 300px;
+    }
+    .pad1 span {
+        font-size: 25px;
+      }
+    .pad1 h1 {
+        font-size: 1.75em;
+        margin: 25px 0px 50px;
+      }
+}

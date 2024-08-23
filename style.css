@@ -30,6 +30,7 @@ nav {
   letter-spacing: 2px;
 }
 .menu a {
+  position: relative;
   text-decoration: none;
   color: black;
   padding: 10px 20px;
@@ -37,6 +38,7 @@ nav {
 }
 
 .menu a::before {
+  position: absolute;
   content: "";
   top: 0;
   left: 0;
